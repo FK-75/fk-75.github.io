@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../temp-assets/me-about.jpg' // Change image here
+import ME from '../../assets/me-about.png' // Change image here
 import {FiAward, FiUsers} from 'react-icons/fi'
 import {TiFolderOpen} from 'react-icons/ti'
 
