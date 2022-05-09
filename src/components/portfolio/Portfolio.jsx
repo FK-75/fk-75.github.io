@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import {IMG2} from '../../assets/portfolio1.png'
-import {IMG3} from '../../assets/portfolio1.png'
-import {IMG4} from '../../assets/portfolio1.png'
-import {IMG5} from '../../assets/portfolio1.png'
-import {IMG6} from '../../assets/portfolio1.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.png'
+import IMG4 from '../../assets/portfolio4.png'
+import IMG5 from '../../assets/portfolio5.png'
+import IMG6 from '../../assets/portfolio6.png'
 
 const data = [
   {
@@ -16,33 +16,33 @@ const data = [
   },
   {
     id: 2,
-    image: IMG1,
-    title: 'Image Noise Remover',
-    github: 'https://github.com/FK-75/Image-Noise-Remover'
+    image: IMG2,
+    title: 'Portfolio Website',
+    github: 'https://github.com/FK-75/FK-75.github.io'
   },
   {
     id: 3,
-    image: IMG1,
-    title: 'Image Noise Remover',
-    github: 'https://github.com/FK-75/Image-Noise-Remover'
+    image: IMG3,
+    title: 'Student Marking System',
+    github: 'https://github.com/FK-75/Student-Marking-System'
   },
   {
     id: 4,
-    image: IMG1,
-    title: 'Image Noise Remover',
-    github: 'https://github.com/FK-75/Image-Noise-Remover'
+    image: IMG4,
+    title: 'Rock Paper Scissors',
+    github: 'https://github.com/FK-75/RockPaperScissors'
   },
   {
     id: 5,
-    image: IMG1,
-    title: 'Image Noise Remover',
-    github: 'https://github.com/FK-75/Image-Noise-Remover'
+    image: IMG5,
+    title: 'Caesar Cipher',
+    github: 'https://github.com/FK-75/Caesar-Cipher'
   },
   {
     id: 6,
-    image: IMG1,
-    title: 'Image Noise Remover',
-    github: 'https://github.com/FK-75/Image-Noise-Remover'
+    image: IMG6,
+    title: 'Word-Frequency',
+    github: 'https://github.com/FK-75/Word-Frequency'
   }
 ]
 
