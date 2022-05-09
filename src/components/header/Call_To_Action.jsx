@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/Farid_Khan_CV.pdf'
 
 const Call_To_Action = () => {
   return (
