@@ -14,8 +14,8 @@ function Contact() {
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon"/>
             <h4>Email</h4>
-            <h5>mfk993@student.bham.ac.uk</h5>
-            <a href="mailto:mfk993@student.bham.ac.uk">Send a message</a>
+            <h5>farid_khan75@hotmail.com</h5>
+            <a href="mailto:farid_khan75@hotmail.com">Send a message</a>
           </article>
           <article className="contact__option" >
             <BsDiscord className="contact__option-icon"/> 

@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.957e9c8c.css",
-    "main.js": "/portfolio-website/static/js/main.47890667.js",
+    "main.css": "/portfolio-website/static/css/main.60521961.css",
+    "main.js": "/portfolio-website/static/js/main.819924c8.js",
     "static/media/portfolio1.png": "/portfolio-website/static/media/portfolio1.9e265e571bdd94dcd13e.png",
     "static/media/portfolio5.png": "/portfolio-website/static/media/portfolio5.cd136e3e71f629941a5c.png",
     "static/media/portfolio3.png": "/portfolio-website/static/media/portfolio3.71c5d867916e2fa23e53.png",
     "static/media/portfolio6.png": "/portfolio-website/static/media/portfolio6.ee6521f64a63711c0afc.png",
-    "static/media/Farid_Khan_CV.pdf": "/portfolio-website/static/media/Farid_Khan_CV.7064dff94bc144297ee1.pdf",
+    "static/media/Farid_Khan_CV.pdf": "/portfolio-website/static/media/Farid_Khan_CV.a4abd642be274e687951.pdf",
     "static/media/portfolio4.png": "/portfolio-website/static/media/portfolio4.be7bcf190dcdfb9db82d.png",
+    "static/media/cover_letter.pdf": "/portfolio-website/static/media/cover_letter.d49a7806f3e0bdeabbaf.pdf",
     "static/media/portfolio2.png": "/portfolio-website/static/media/portfolio2.8f12646a735489286aaa.png",
     "index.html": "/portfolio-website/index.html",
-    "main.957e9c8c.css.map": "/portfolio-website/static/css/main.957e9c8c.css.map",
-    "main.47890667.js.map": "/portfolio-website/static/js/main.47890667.js.map"
+    "main.60521961.css.map": "/portfolio-website/static/css/main.60521961.css.map",
+    "main.819924c8.js.map": "/portfolio-website/static/js/main.819924c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.957e9c8c.css",
-    "static/js/main.47890667.js"
+    "static/css/main.60521961.css",
+    "static/js/main.819924c8.js"
   ]
 }
