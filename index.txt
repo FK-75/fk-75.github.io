@@ -9,7 +9,7 @@ b:I[9665,[],"OutletBoundary"]
 e:I[4911,[],"AsyncMetadataOutlet"]
 10:I[9665,[],"ViewportBoundary"]
 12:I[6614,[],""]
-:HL["/_next/static/css/ab4a05e8f9829cff.css","style"]
+:HL["/_next/static/css/fdabd2124b428954.css","style"]
 7:T770a,
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -901,7 +901,7 @@ footer{
   body{ cursor:auto }
   #cursor,#cursor-ring{ display:none }
 }
-8:T7251,
+8:T7233,
 <div id="loader" aria-live="polite" aria-label="Loading portfolio">
   <canvas id="loader-canvas"></canvas>
   <div class="loader-scan"></div>
@@ -1168,7 +1168,7 @@ footer{
   <h2 class="section-h">WHERE I<br><em>STUDIED</em></h2>
   <div class="reveal">
     <div class="edu-card"><div><div class="edu-degree">MSc Artificial Intelligence</div><div class="edu-school">Starting Sep 2026 · Martingale Scholar 🏅</div><p class="edu-desc">Awarded a competitive Martingale Scholarship to pursue a Masters in AI. Starting Sep 2026, graduating 2027.</p></div><div class="edu-badge">26/27</div></div>
-    <div class="edu-card"><div><div class="edu-degree">BSc AI &amp; Computer Science with a Year in Industry</div><div class="edu-school">University of Birmingham · Sep 2020 – Jun 2026</div><p class="edu-desc">Final Year Project graded First-Class: "Temporal Emotion Detection in Text Messaging via Dual RoBERTa Models." Submitted to AIES 2025. Year in Industry at ALTEN LTD (2022–2023). Research exchange at SJTU Shanghai (2025).</p></div><div class="edu-badge"><img src="/uob-logo.png" alt="University of Birmingham" style="height:120px;filter:grayscale(1) invert(1)"></div></div>
+    <div class="edu-card"><div><div class="edu-degree">BSc AI &amp; Computer Science with a Year in Industry</div><div class="edu-school">University of Birmingham · Sep 2020 – Jun 2026</div><p class="edu-desc">Final Year Project graded First-Class: "Temporal Emotion Detection in Text Messaging via Dual RoBERTa Models." Submitted to AIES 2025. Year in Industry at ALTEN LTD (2022–2023). Research exchange at SJTU Shanghai (2025).</p></div><div class="edu-badge"><img src="/uob-logo.png" alt="University of Birmingham" style="height:120px"></div></div>
   </div>
 </section>
 
@@ -1236,7 +1236,7 @@ footer{
     </div>
   </div>
 </footer>
-0:{"P":null,"b":"w2uzHyq_au0X5Y_cQK8Qy","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ab4a05e8f9829cff.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","cJZeZwDc8v3U7Ox9vUNYv",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"LQtMCPaQjGOCDI-I_iia-","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Vmv2oG0D245vI5-Xbk4FP",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
 13:"$Sreact.suspense"
 14:I[4911,[],"AsyncMetadata"]
 a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
