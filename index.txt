@@ -10,7 +10,7 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 10:I[9665,[],"ViewportBoundary"]
 12:I[6614,[],""]
 :HL["/_next/static/css/fdabd2124b428954.css","style"]
-7:T770a,
+7:T77ef,
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
   --gold:#c9a84c;
@@ -806,7 +806,8 @@ footer{
 #journey .journey-outer{ margin-left:-52px;margin-right:-52px;padding-left:52px;padding-right:52px; }
 #radar-section .radar-wrap{ display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center; }
 #radar-canvas{ display:block;width:100%;overflow:visible; }
-.radar-legend-title{ font-family:var(--font-display);font-size:1.1rem;letter-spacing:.06em;color:var(--text);margin-bottom:20px; }
+.radar-legend-title{ font-family:var(--font-display);font-size:1.1rem;letter-spacing:.06em;color:var(--text);margin-bottom:20px;text-shadow:0 0 10px rgba(232,224,208,0.3); }
+.fluent-label{ margin-top:28px;font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text);text-shadow:0 0 10px rgba(232,224,208,0.3); }
 .radar-row{ display:flex;align-items:center;gap:14px;margin-bottom:14px; }
 .radar-bar-wrap{ flex:1;height:3px;background:var(--border);border-radius:2px;overflow:hidden; }
 .radar-bar{ height:100%;background:linear-gradient(90deg,var(--gold),var(--gold-bright));border-radius:2px;width:0;transition:width 1.2s cubic-bezier(.4,0,.2,1); }
@@ -901,7 +902,7 @@ footer{
   body{ cursor:auto }
   #cursor,#cursor-ring{ display:none }
 }
-8:T7233,
+8:T71c1,
 <div id="loader" aria-live="polite" aria-label="Loading portfolio">
   <canvas id="loader-canvas"></canvas>
   <div class="loader-scan"></div>
@@ -1207,7 +1208,7 @@ footer{
       <div class="radar-row"><div class="radar-label">Robotics &amp; SLAM</div><div class="radar-bar-wrap"><div class="radar-bar" data-w="72"></div></div><div class="radar-pct">72%</div></div>
       <div class="radar-row"><div class="radar-label">Web / Backend</div><div class="radar-bar-wrap"><div class="radar-bar" data-w="70"></div></div><div class="radar-pct">70%</div></div>
       <div class="radar-row"><div class="radar-label">Systems &amp; Infra</div><div class="radar-bar-wrap"><div class="radar-bar" data-w="65"></div></div><div class="radar-pct">65%</div></div>
-      <div style="margin-top:28px;font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--border)">Also fluent in: Python · Java · C/C++ · Haskell · R · SQL · JavaScript</div>
+      <div class="fluent-label">Also fluent in: Python · Java · C/C++ · Haskell · R · SQL · JavaScript</div>
     </div>
   </div>
 </section>
@@ -1236,7 +1237,7 @@ footer{
     </div>
   </div>
 </footer>
-0:{"P":null,"b":"LQtMCPaQjGOCDI-I_iia-","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Vmv2oG0D245vI5-Xbk4FP",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"8RIcdM0doT9pWYq687uuj","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Kjo8b-A0X3SdRMd7Hq6ny",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
 13:"$Sreact.suspense"
 14:I[4911,[],"AsyncMetadata"]
 a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
