@@ -10,7 +10,7 @@ e:I[4911,[],"AsyncMetadataOutlet"]
 10:I[9665,[],"ViewportBoundary"]
 12:I[6614,[],""]
 :HL["/_next/static/css/fdabd2124b428954.css","style"]
-7:T77ef,
+7:T7813,
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
   --gold:#c9a84c;
@@ -302,7 +302,7 @@ nav{
 }
 .nav-links a:hover{color:var(--gold)}
 .hero-photo{
-  width:100%;
+  width:40%;
   overflow:hidden;
   border:1px solid var(--border);
   opacity:0;
@@ -312,7 +312,7 @@ nav{
 }
 .hero-photo img{
   width:100%; height:100%;
-  object-fit:cover; object-position:center 15%;
+  object-fit:cover; object-position:center 30%;
   filter:grayscale(20%) contrast(1.05);
   transition:filter .4s;
   display:block;
@@ -386,17 +386,18 @@ nav{
 #hero{
   min-height:100vh;
   display:grid;
-  grid-template-columns:260px 1fr;
+  grid-template-columns:1fr 1fr;
   grid-template-areas:"photo text";
   align-items:end;
-  column-gap:40px;
-  padding:0 52px 80px 52px;
+  column-gap:70px;
+  padding:0 82px 80px 22px;
   position:relative;
 }
 #hero .hero-photo{
   grid-area:photo;
   height:clamp(300px,50vh,500px);
   align-self:end;
+  justify-self:end;
 }
 .hero-text{
   grid-area:text;
@@ -438,7 +439,7 @@ nav{
 .hl{
   font-family:var(--font-mono);font-size:.72rem;
   letter-spacing:.1em;text-transform:uppercase;
-  color:var(--muted);text-decoration:none;
+  color:color-mix(in srgb, var(--muted), #ffffff 10%);text-decoration:none;
   border-bottom:1px solid var(--border);
   padding-bottom:2px;transition:color .2s,border-color .2s;
 }
@@ -605,7 +606,7 @@ nav{
 }
 .proj-links a:hover{color:var(--gold);border-color:var(--gold)}
 .proj-card.wide{grid-column:span 2}
-.skills-layout{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:2px}
+.skills-layout{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;column-gap:40px; row-gap: 20px;}
 .skill-col{background:var(--surface);border:1px solid var(--border);padding:24px}
 .skill-cat{
   font-family:var(--font-mono);font-size:.62rem;
@@ -806,7 +807,7 @@ footer{
 #journey .journey-outer{ margin-left:-52px;margin-right:-52px;padding-left:52px;padding-right:52px; }
 #radar-section .radar-wrap{ display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center; }
 #radar-canvas{ display:block;width:100%;overflow:visible; }
-.radar-legend-title{ font-family:var(--font-display);font-size:1.1rem;letter-spacing:.06em;color:var(--text);margin-bottom:20px;text-shadow:0 0 10px rgba(232,224,208,0.3); }
+.radar-legend-title{ font-family:var(--font-display);font-size:1.1rem;letter-spacing:.06em;color:var(--text);margin-bottom:20px; }
 .fluent-label{ margin-top:28px;font-family:var(--font-mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--text);text-shadow:0 0 10px rgba(232,224,208,0.3); }
 .radar-row{ display:flex;align-items:center;gap:14px;margin-bottom:14px; }
 .radar-bar-wrap{ flex:1;height:3px;background:var(--border);border-radius:2px;overflow:hidden; }
@@ -838,7 +839,7 @@ footer{
 .nav-links.open{ display:flex !important; }
 @media(max-width:1100px){
   nav{ padding:18px 32px }
-  #hero{ padding:0 32px 72px; grid-template-columns:220px 1fr; column-gap:28px; }
+  #hero{ padding:0 52px 72px 12px; grid-template-columns:220px 1fr; column-gap:28px; }
   .section{ padding:100px 32px }
   .skills-layout{ grid-template-columns:1fr 1fr }
   .proj-grid{ grid-template-columns:1fr 1fr }
@@ -902,7 +903,7 @@ footer{
   body{ cursor:auto }
   #cursor,#cursor-ring{ display:none }
 }
-8:T71c1,
+8:T742d,
 <div id="loader" aria-live="polite" aria-label="Loading portfolio">
   <canvas id="loader-canvas"></canvas>
   <div class="loader-scan"></div>
@@ -984,8 +985,8 @@ footer{
   <h2 class="section-h">THE <em>PERSON</em><br>BEHIND THE MODEL</h2>
   <div class="about-grid reveal">
     <div class="about-body">
-      <p>I'm a final-year <strong>AI & Computer Science</strong> student at the University of Birmingham, with a year in industry at ALTEN and a research stint at <strong>Shanghai Jiao Tong University</strong> under Prof. Bao-Liang Lu. I specialise in the deep end of ML — multimodal learning, NLP, affective computing — and I love when research turns into software people actually touch.</p>
-      <p>Off-screen: sketching fits, dissecting F1 strategy (Ferrari &amp; Merc), re-reading Dune for the third time, dancing, and listening to Kendrick on repeat. He taught me that <em>craft matters</em> — in music, in code, in everything.</p>
+      <p>I'm a final-year <strong>AI & Computer Science</strong> student at the University of Birmingham, with a year in industry at ALTEN and a research stint at <strong>Shanghai Jiao Tong University</strong> under Prof. Bao-Liang Lu. I specialise in the deep end of ML (multimodal learning, NLP, affective computing) and I love when research turns into software people actually touch.</p>
+      <p>Off-screen: sketching fits, dissecting F1 strategy (Ferrari &amp; Merc), re-reading Dune for the third time, dancing, and listening to Kendrick on repeat. He taught me that <em>craft matters</em> – in music, in code, in everything.</p>
     </div>
     <div>
       <div class="stat-grid">
@@ -996,8 +997,8 @@ footer{
       </div>
       <div class="now-card">
         <div class="now-card-title">Currently ✦</div>
-        <div class="now-row"><span class="now-icon">📖</span><div><div class="now-tag">Reading</div><div class="now-val">Dune Messiah — Frank Herbert</div></div></div>
-        <div class="now-row"><span class="now-icon">🏎️</span><div><div class="now-tag">Watching</div><div class="now-val">F1 2025 — Ferrari &amp; Merc</div></div></div>
+        <div class="now-row"><span class="now-icon">📖</span><div><div class="now-tag">Reading</div><div class="now-val">Dune Messiah – Frank Herbert</div></div></div>
+        <div class="now-row"><span class="now-icon">🏎️</span><div><div class="now-tag">Watching</div><div class="now-val">F1 2025 – Ferrari &amp; Merc</div></div></div>
         <div class="now-row"><span class="now-icon">🏅</span><div><div class="now-tag">Next up</div><div class="now-val">MSc AI · Sep 2026 · Martingale Scholar</div></div></div>
         <div class="now-row"><span class="now-icon">🎓</span><div><div class="now-tag">Graduating</div><div class="now-val">BSc AI & CS · June 2026</div></div></div>
         <div class="music-widget">
@@ -1020,7 +1021,7 @@ footer{
   <h2 class="section-h">WHERE I'VE<br><em>WORKED</em></h2>
   <div class="timeline">
     <div class="tl-item">
-      <div class="tl-date">Sep 2022<br>— Aug 2023</div>
+      <div class="tl-date">Sep 2022 — Aug 2023</div>
       <div class="tl-body">
         <div class="tl-title">INNOVATION ENGINEER / DATA SCIENTIST</div>
         <div class="tl-org">ALTEN LTD · Derby, UK</div>
@@ -1037,7 +1038,7 @@ footer{
   <h2 class="section-h">WHAT I'VE<br><em>INVESTIGATED</em></h2>
   <div class="timeline">
     <div class="tl-item">
-      <div class="tl-date">Jun 2025<br>— Aug 2025</div>
+      <div class="tl-date">Jun 2025 — Aug 2025</div>
       <div class="tl-body">
         <div class="tl-title">ML/AI RESEARCHER</div>
         <div class="tl-org">SJTU · Center for Brain-Like Computing &amp; Machine Intelligence · Shanghai, China</div>
@@ -1046,7 +1047,7 @@ footer{
       </div>
     </div>
     <div class="tl-item">
-      <div class="tl-date">Sep 2024<br>— May 2025</div>
+      <div class="tl-date">Sep 2024 — May 2025</div>
       <div class="tl-body">
         <div class="tl-title">FINAL YEAR PROJECT — EMOSMS</div>
         <div class="tl-org">University of Birmingham</div>
@@ -1082,7 +1083,7 @@ footer{
         <div class="proj-stat"><div class="ps-num">80%+</div><div class="ps-label">User Clarity Score</div></div>
       </div>
       <div class="proj-stack"><span class="tt">PyTorch</span><span class="tt">RoBERTa</span><span class="tt">HuggingFace</span><span class="tt">Flask</span><span class="tt">SQLite</span><span class="tt">Signal Android</span><span class="tt">Docker</span></div>
-      <div class="proj-links"><a href="#">GitHub ↗</a><a href="#">Paper ↗</a></div>
+      <div class="proj-links"><a href="https://github.com/FK-75/emotion-detection-messaging" target="_blank" rel="noreferrer">GitHub ↗</a><a href="/Temp_Emo.pdf" target="_blank" rel="noreferrer">Paper ↗</a></div>
     </div>
     <div class="proj-card">
       <div class="proj-num">02</div>
@@ -1096,7 +1097,7 @@ footer{
         <div class="proj-stat"><div class="ps-num">20</div><div class="ps-label">Unit Tests</div></div>
       </div>
       <div class="proj-stack"><span class="tt">Python</span><span class="tt">OpenCV</span><span class="tt">PyOpenGL</span><span class="tt">Kociemba</span><span class="tt">Pygame</span><span class="tt">NumPy</span></div>
-      <div class="proj-links"><a href="#">GitHub ↗</a></div>
+      <div class="proj-links"><a href="https://github.com/FK-75/rubiks-cube-solver" target="_blank" rel="noreferrer">GitHub ↗</a></div>
     </div>
     <div class="proj-card">
       <div class="proj-num">03</div>
@@ -1110,7 +1111,7 @@ footer{
         <div class="proj-stat"><div class="ps-num">800²</div><div class="ps-label">SLAM Grid px</div></div>
       </div>
       <div class="proj-stack"><span class="tt">Python</span><span class="tt">Webots</span><span class="tt">BreezySLAM</span><span class="tt">A* Planning</span><span class="tt">OpenCV</span><span class="tt">NumPy</span></div>
-      <div class="proj-links"><a href="#">GitHub ↗</a></div>
+      <div class="proj-links"><a href="https://github.com/FK-75/social-navigation-robot" target="_blank" rel="noreferrer">GitHub ↗</a></div>
     </div>
     <div class="proj-card">
       <div class="proj-num">04</div>
@@ -1133,7 +1134,7 @@ footer{
       <p class="proj-desc">CNN + image-translation GAN + radar fusion pipeline that identifies palm oil plantations from satellite imagery with 95% accuracy. Built at ALTEN to support sustainable land-use monitoring.</p>
       <div class="proj-stats"><div class="proj-stat"><div class="ps-num">95%</div><div class="ps-label">Detection Accuracy</div></div></div>
       <div class="proj-stack"><span class="tt">CNNs</span><span class="tt">GANs</span><span class="tt">Radar Fusion</span><span class="tt">PyTorch</span><span class="tt">OpenCV</span></div>
-      <div class="proj-links"><a href="#">Medium ↗</a></div>
+      <div class="proj-links"><a href="https://medium.com/alten-uk-innovation-lab/detection-forecasting-of-palm-oil-plantations-using-artificial-intelligence-a5f4bbdfc11c" target="_blank" rel="noreferrer">Medium ↗</a></div>
     </div>
   </div>
 </section>
@@ -1144,9 +1145,9 @@ footer{
   <h2 class="section-h">MY<br><em>TOOLKIT</em></h2>
   <div class="skills-layout reveal">
     <div class="skill-col"><div class="skill-cat">Languages</div><div class="skill-item">Python</div><div class="skill-item">Java</div><div class="skill-item">C / C++</div><div class="skill-item">JavaScript</div><div class="skill-item">SQL</div><div class="skill-item">R</div><div class="skill-item">Haskell</div></div>
-    <div class="skill-col"><div class="skill-cat">ML / Deep Learning</div><div class="skill-item">PyTorch</div><div class="skill-item">TensorFlow</div><div class="skill-item">HuggingFace</div><div class="skill-item">YOLOv8 · CNNs · GANs</div><div class="skill-item">Scikit-Learn</div><div class="skill-item">OpenCV</div><div class="skill-item">NLP · Transformers</div></div>
+    <div class="skill-col"><div class="skill-cat">ML / Deep Learning</div><div class="skill-item">PyTorch</div><div class="skill-item">TensorFlow</div><div class="skill-item">HuggingFace</div><div class="skill-item">YOLOv8 </div><div class="skill-item">CNNs</div><div class="skill-item">GANs</div><div class="skill-item">Scikit-Learn</div><div class="skill-item">OpenCV</div><div class="skill-item">NLP </div><div class="skill-item">Transformers</div></div>
     <div class="skill-col"><div class="skill-cat">Web &amp; Frameworks</div><div class="skill-item">React</div><div class="skill-item">Node.js</div><div class="skill-item">Flask</div><div class="skill-item">Django</div><div class="skill-item">REST APIs</div></div>
-    <div class="skill-col"><div class="skill-cat">Tools &amp; Platforms</div><div class="skill-item">Git · Docker</div><div class="skill-item">Azure · GCP</div><div class="skill-item">ONNX · TFLite</div><div class="skill-item">CI/CD</div><div class="skill-item">Linux · VPS</div></div>
+    <div class="skill-col"><div class="skill-cat">Tools &amp; Platforms</div><div class="skill-item">Git </div><div class="skill-item">Docker</div><div class="skill-item">Azure </div><div class="skill-item">GCP</div><div class="skill-item">ONNX </div><div class="skill-item">TFLite</div><div class="skill-item">CI/CD</div><div class="skill-item">Linux </div><div class="skill-item">VPS</div></div>
   </div>
 </section>
 
@@ -1237,7 +1238,7 @@ footer{
     </div>
   </div>
 </footer>
-0:{"P":null,"b":"8RIcdM0doT9pWYq687uuj","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Kjo8b-A0X3SdRMd7Hq6ny",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"QuZ2w6oGzbboAq_ZB6jKa","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","CWOE5ez9DKr9lFSVlIRkd",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
 13:"$Sreact.suspense"
 14:I[4911,[],"AsyncMetadata"]
 a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
