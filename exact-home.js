@@ -589,3 +589,65 @@ function tuneMobilePerf() {
 
 tuneMobilePerf();
 window.addEventListener("resize", tuneMobilePerf);
+
+/* ── Project Carousel ── */
+(function () {
+  const TOTAL_PAGES = 2;
+  let current = 0;
+
+  const pages = Array.from({ length: TOTAL_PAGES }, (_, i) =>
+    document.getElementById("proj-page-" + i)
+  );
+  const dots = Array.from(document.querySelectorAll(".proj-dot"));
+  const prevBtn = document.getElementById("proj-prev");
+  const nextBtn = document.getElementById("proj-next");
+
+  if (!prevBtn || !nextBtn) return;
+
+  function goTo(n) {
+    pages[current].classList.remove("active");
+    dots[current].classList.remove("active");
+    current = n;
+    pages[current].classList.add("active");
+    dots[current].classList.add("active");
+    prevBtn.disabled = current === 0;
+    nextBtn.disabled = current === TOTAL_PAGES - 1;
+
+    pages[current].querySelectorAll(".proj-card").forEach((card, i) => {
+      card.classList.remove("visible");
+      card.style.transitionDelay = i * 0.08 + "s";
+      io.observe(card);
+    });
+  }
+
+  prevBtn.addEventListener("click", () => {
+    if (current > 0) goTo(current - 1);
+  });
+  nextBtn.addEventListener("click", () => {
+    if (current < TOTAL_PAGES - 1) goTo(current + 1);
+  });
+  dots.forEach((dot) =>
+    dot.addEventListener("click", () => goTo(+dot.dataset.page))
+  );
+
+  let tx = 0;
+  const carousel = document.getElementById("proj-carousel");
+  if (carousel) {
+    carousel.addEventListener(
+      "touchstart",
+      (e) => {
+        tx = e.touches[0].clientX;
+      },
+      { passive: true }
+    );
+    carousel.addEventListener(
+      "touchend",
+      (e) => {
+        const dx = e.changedTouches[0].clientX - tx;
+        if (dx < -50 && current < TOTAL_PAGES - 1) goTo(current + 1);
+        if (dx > 50 && current > 0) goTo(current - 1);
+      },
+      { passive: true }
+    );
+  }
+})();
