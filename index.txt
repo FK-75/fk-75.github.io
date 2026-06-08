@@ -9,7 +9,7 @@ b:I[9665,[],"OutletBoundary"]
 e:I[4911,[],"AsyncMetadataOutlet"]
 10:I[9665,[],"ViewportBoundary"]
 12:I[6614,[],""]
-:HL["/_next/static/css/fdabd2124b428954.css","style"]
+:HL["/_next/static/css/713092c8a26ddbc8.css","style"]
 7:T7c5b,
 *{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -929,7 +929,7 @@ footer{
   body{ cursor:auto }
   #cursor,#cursor-ring{ display:none }
 }
-8:T9087,
+8:Ta3d1,
 <div id="loader" aria-live="polite" aria-label="Loading portfolio">
   <canvas id="loader-canvas"></canvas>
   <div class="loader-scan"></div>
@@ -1174,6 +1174,21 @@ footer{
     </div>
     <div class="proj-page" id="proj-page-1">
       <div class="proj-grid">
+        <div class="proj-card wide">
+          <div class="proj-num">10</div>
+          <div class="proj-badge">✦ Sports · Deep Learning · WebSocket · Full-Stack</div>
+          <div class="proj-icon">🏀</div>
+          <div class="proj-title">NBA LIVE WIN PROBABILITY</div>
+          <p class="proj-desc">Win probability model trained on 8 seasons of NBA play-by-play data (~10,000 games, millions of events) distilled to 11 features per possession. Two-layer GRU with isotonic regression calibration, exported to ONNX and deployed as a FastAPI WebSocket server — supports historical replay at any speed and live game streaming with auto-refresh. React frontend with a cinematic browse flow (season → stage → team → game), arena scoreboard, animated momentum bar, and win probability chart with team colours and quarter markers. Beat ESPN's production model by 23% on Brier score.</p>
+          <div class="proj-stats">
+            <div class="proj-stat"><div class="ps-num">0.1606</div><div class="ps-label">Brier Score</div></div>
+            <div class="proj-stat"><div class="ps-num">23%</div><div class="ps-label">Better vs ESPN</div></div>
+            <div class="proj-stat"><div class="ps-num">8</div><div class="ps-label">Seasons of Data</div></div>
+            <div class="proj-stat"><div class="ps-num">43s</div><div class="ps-label">Train Time (RTX 4080)</div></div>
+          </div>
+          <div class="proj-stack"><span class="tt">PyTorch</span><span class="tt">GRU</span><span class="tt">ONNX</span><span class="tt">FastAPI</span><span class="tt">WebSocket</span><span class="tt">React</span><span class="tt">Isotonic Regression</span></div>
+          <div class="proj-links"><a href="https://github.com/FK-75/nba-live-win-prob" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        </div>
         <div class="proj-card">
           <div class="proj-num">06</div>
           <div class="proj-badge red">Computer Vision · CV + 3D</div>
@@ -1228,11 +1243,44 @@ footer{
       </div>
     </div>
   </div>
+    <div class="proj-page" id="proj-page-2">
+      <div class="proj-grid">
+        <div class="proj-card">
+          <div class="proj-num">11</div>
+          <div class="proj-badge">✦ Finance · Multi-Agent RL · Market Microstructure</div>
+          <div class="proj-icon">📈</div>
+          <div class="proj-title">MARL-LOB</div>
+          <p class="proj-desc">Three RL agents — Market Maker, Momentum Trader, Arbitrageur — trained via MAPPO (centralised critic, decentralised LSTM actors) in a custom heap-based Limit Order Book built with PettingZoo. Kyle's Lambda market impact calibrated on real SPY data; 3-state HMM for regime detection; noise traders prevent degenerate Nash equilibria. Market Maker achieves Sharpe 8.71, 85.3% win rate OOS. MAPPO beats IPPO across all agents.</p>
+          <div class="proj-stats">
+            <div class="proj-stat"><div class="ps-num">8.71</div><div class="ps-label">MM Sharpe</div></div>
+            <div class="proj-stat"><div class="ps-num">85.3%</div><div class="ps-label">MM Win Rate</div></div>
+            <div class="proj-stat"><div class="ps-num">3</div><div class="ps-label">Agents</div></div>
+          </div>
+          <div class="proj-stack"><span class="tt">PyTorch</span><span class="tt">MAPPO</span><span class="tt">PettingZoo</span><span class="tt">LSTM</span><span class="tt">Streamlit</span><span class="tt">yfinance</span></div>
+          <div class="proj-links"><a href="https://github.com/FK-75/marl-lob" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        </div>
+        <div class="proj-card">
+          <div class="proj-num">12</div>
+          <div class="proj-badge">Research · Time Series · Transformers</div>
+          <div class="proj-icon">📊</div>
+          <div class="proj-title">TFT REPLICATION</div>
+          <p class="proj-desc">From-scratch replication of Google's Temporal Fusion Transformer (Lim et al., IJF 2021) — no copying existing codebases. Implements every paper equation: GLU, GRN, VSN, Static Covariate Encoder, and Interpretable Multi-Head Attention with shared-V. 4.2M parameters trained on UCI Electricity (370 customers, 6.7M training windows). Results within ±20% replication threshold. 35 unit tests verify every component.</p>
+          <div class="proj-stats">
+            <div class="proj-stat"><div class="ps-num">4.2M</div><div class="ps-label">Parameters</div></div>
+            <div class="proj-stat"><div class="ps-num">0.0615</div><div class="ps-label">P50 q-Risk</div></div>
+            <div class="proj-stat"><div class="ps-num">35</div><div class="ps-label">Unit Tests</div></div>
+          </div>
+          <div class="proj-stack"><span class="tt">PyTorch</span><span class="tt">PyTorch Lightning</span><span class="tt">Transformers</span><span class="tt">UCI Electricity</span><span class="tt">Parquet</span></div>
+          <div class="proj-links"><a href="https://github.com/FK-75/tft-replication" target="_blank" rel="noreferrer">GitHub ↗</a></div>
+        </div>
+      </div>
+    </div>
   <div class="proj-pagination">
     <button class="proj-nav-btn" id="proj-prev" aria-label="Previous projects" disabled>← Prev</button>
     <div class="proj-dots">
       <button class="proj-dot active" data-page="0" aria-label="Page 1"></button>
       <button class="proj-dot" data-page="1" aria-label="Page 2"></button>
+      <button class="proj-dot" data-page="2" aria-label="Page 3"></button>
     </div>
     <button class="proj-nav-btn" id="proj-next" aria-label="Next projects">Next →</button>
   </div>
@@ -1337,7 +1385,7 @@ footer{
     </div>
   </div>
 </footer>
-0:{"P":null,"b":"OeyMLVQh52qLs6CVPl3G9","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/fdabd2124b428954.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","0_gQmAWiat2pS_OexQb9q",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"LzNH3s1ImCs7h4ZwBmI1u","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/713092c8a26ddbc8.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@300;400;500&family=Crimson+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap","rel":"stylesheet"}]]}],["$","$L2",null,{"async":true,"src":"https://www.googletagmanager.com/gtag/js?id=G-N1WY5KHCT6","strategy":"afterInteractive"}],["$","$L2",null,{"id":"gtag-init","strategy":"afterInteractive","children":"\n          window.dataLayer = window.dataLayer || [];\n          function gtag(){dataLayer.push(arguments);}  \n          gtag('js', new Date());\n          gtag('config', 'G-N1WY5KHCT6', { page_path: window.location.pathname });\n        "}],["$","body",null,{"children":[["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$L6",null,{}]]}]]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"$7"}}],["$","div",null,{"dangerouslySetInnerHTML":{"__html":"$8"}}],["$","$L2",null,{"src":"https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js","strategy":"beforeInteractive"}],["$","$L2",null,{"src":"/exact-home.js","strategy":"afterInteractive"}]],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-BpiXzWokm7K-yxBqgexV",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
 13:"$Sreact.suspense"
 14:I[4911,[],"AsyncMetadata"]
 a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]

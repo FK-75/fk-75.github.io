@@ -592,7 +592,7 @@ window.addEventListener("resize", tuneMobilePerf);
 
 /* ── Project Carousel ── */
 (function () {
-  const TOTAL_PAGES = 2;
+  const TOTAL_PAGES = 3;
   let current = 0;
 
   const pages = Array.from({ length: TOTAL_PAGES }, (_, i) =>
